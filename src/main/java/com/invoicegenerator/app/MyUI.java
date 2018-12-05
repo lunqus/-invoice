@@ -27,12 +27,12 @@ public class MyUI extends UI {
         final VerticalLayout layout = new VerticalLayout();
         
         final TextField name = new TextField();
-        name.setCaption("Type your name here:");
+        name.setCaption("Type Customer's name here:");
 
         Button button = new Button("Click Me");
         button.addClickListener(e -> {
             layout.addComponent(new Label("Thanks " + name.getValue() 
-                    + ", it works!"));
+                    + ", doesn't exist yet!"));
         });
         
         layout.addComponents(name, button);
