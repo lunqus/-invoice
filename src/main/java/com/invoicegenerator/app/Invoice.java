@@ -6,7 +6,7 @@ package com.invoicegenerator.app;
  *
  */
 
-public class Invoice {
+public class Invoice { // jdfhaljkrfgs
 
     public void records() {
 
